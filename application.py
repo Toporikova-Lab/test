@@ -1,6 +1,5 @@
-from flask import Flask
-application  = Flask(__name__)
+from application import application
 
-@application.route('/')
-def hello_world():
-	return 'Glorious Website1'
+
+if __name__ == "__main__":
+    application.run()
