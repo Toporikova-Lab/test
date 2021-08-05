@@ -1,0 +1,76 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+
+<div class="container">
+    <h1>Project Description</h1>
+    <p>Diet high in fat and sugar is particularly dangerous for women. In addition to number of metabolic abnormalities, diet-induced obesity correlate with development of polycystic ovary syndrome (PCOS) in women(Hoeger, et al, 2012). While cysts development in ovary is hallmark of this disorder, the mechanism for its development is still unknown. Even more alarming, identification of cysts in ovarian tissue is currently conducted by visual examination of histological slides by experienced pathologist. Previously, our lab havedeveloped a rat model of diet-induced PCOS by feeding adolescent female rats a high-fat diet supplemented by a 32% liquid sucrose solution (HFHS diet). After 15 weeks on the diet, 75% of animals became acyclic and exhibited classic hallmarks of PCOS such as a large number of cysts in the ovary (Fig 1), increased androgens, insulin insensitivity, and acyclicity (Roberts, et al, 2017).</p>
+    <figure>
+        <img src="static/images/Figure1.jpg" alt="Figure" style="width:100%">
+        <figcaption>Figure 1 - Collecting images of individual follicular structure. Each ovary was sectioned and stained. Individual sections were imaged. For each section image we identified and extracted images of individual follicular structure (corpusl luteum on the left and cysts on the right).</figcaption>
+      </figure>
+      <p>Over the last few years we collected images of rat ovaries and manually quantify presence of cysts in HFHS group and healthy follicles in control group. Our findings indicate that HFHS diet modify development of ovarian follicles in rat ovary. Animal on a diet hassignificantly less indicators of ovulation (corpus luteum, CL)  and  significantly  more  cysts(Volk,  et  al,  2017).However,  the  main  bottleneck  of  this  project  is processing of ovarian histology which is currently is done by manually inspecting every follicular image.The  goal  of  this  project  is  to  extracting  images  of  individual  follicular  structures  (healthy  follicles, unhealthy follicles and cysts) using machine learning algorithm. We will be collecting images of individual follicular structures and use as a training set in a machine learning model to automatically classify those follicular structures.</p>
+</div>
+
+
+<div class="container">
+
+    <h1>Creators</h1>
+
+    <div>
+        <div class="speakerphoto">
+            <img src="static/images/Dr.T.jpg" alt="Cain Brady">
+            <div class="speakersocial">
+              <div>
+               <h3>Dr. Natalie Toporikova</h3>
+              </div>
+            <div class="website">
+                <a href="https://my.wlu.edu/directory/profile?ID=x7821" target="_blank">Profile</a>
+            </div>
+            <div>
+                <p>About</p>
+            </div>
+            </div>
+          </div> 
+    </div>
+
+    <div>
+        <div class="speakerphoto">
+            <img src="static/images/sam.jpeg" alt="sambluestone">
+            <div class="speakersocial">
+              <div class="twitter">
+               <h3>Sam Bluestone</h3>
+              </div>
+            <div class="website">
+                <a href="https://www.linkedin.com/in/sambluestone/" target="_blank">LinkedIn</a>
+            </div>
+            <div>
+                <p>About</p>
+            </div>
+            </div>
+          </div> 
+    </div>
+
+    <div>
+        <div class="speakerphoto">
+            <img src="static/images/jeff.jpeg" alt="Cain Brady">
+            <div class="speakersocial">
+              <div class="twitter">
+               <h3>Jeffrey Bradley</h3>
+              </div>
+            <div class="website">
+                <a href="https://www.linkedin.com/in/jeffreybradley772/" target="_blank">LinkedIn</a>
+            </div>
+            <div class="website">
+                <a href="https://github.com/JeffreyBradley772" target="_blank">GitHub</a>
+            </div>
+            <div>
+                <p>About</p>
+            </div>
+            </div>
+          </div> 
+    </div>
+</div>
+
+{% endblock %}
